@@ -5,7 +5,7 @@ import json
 class GetdoctorsSpider(scrapy.Spider):
     name = 'testDoctor'
     allowed_domains = ['nobat.ir']
-    start_urls = ['https://nobat.ir/doctor/%D8%AF%DA%A9%D8%AA%D8%B1-%D8%B9%D9%84%DB%8C-%D8%A7%D8%B5%D8%BA%D8%B1-%D8%AF%D8%B1%D8%AF%D8%B4%D8%AA%DB%8C-%D8%AA%D9%87%D8%B1%D8%A7%D9%86/dr-wqyk/']
+    start_urls = ['https://nobat.ir/doctor/%D8%AF%DA%A9%D8%AA%D8%B1-%D8%A2%D8%B1%DB%8C%D8%A7-%D8%B4%D9%81%DB%8C%D8%B9%DB%8C-%D8%AA%D9%87%D8%B1%D8%A7%D9%86/dr-15572/vs-1']
 
     def parse(self, response):
         data = {
